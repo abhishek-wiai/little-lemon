@@ -1,11 +1,16 @@
-import "./Main.css"
+import "./Home.css"
 import headerImg from "../../assets/restauranfood.jpg"
 import SpecialsCard from "./SpecialsCard";
 import greekSaladImg from "../../assets/greek salad.jpg"
 import bruschettaImg from "../../assets/bruchetta.svg"
 import lemonDessertImg from "../../assets/lemon dessert.jpg"
+import { useNavigate } from "react-router-dom";
+
 
 const Main = () => {
+
+
+    const navigate = useNavigate();
 
     const specialsData = [
         {"dish": "Greek Salad",
@@ -36,9 +41,11 @@ const Main = () => {
                 <span className="bannerTitle">Little Lemon</span>
                 <span className="bannerSubHeading">Chicago</span>
                 <span className="bannerText">We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</span>
-                <button style={{width: '200px', height: "auto", paddingLeft: 16, paddingRight: 16, paddingTop: 8, paddingBottom: 8, background: '#F4CE14', borderRadius: 16, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex', marginTop:"20px", marginBottom:"20px"}}>
-<div style={{color: 'black', fontSize: 16, fontFamily: 'Karla', fontWeight: '700', wordWrap: 'break-word'}}>Reserve A Table</div>
-</button>
+               
+                <button style={{width: '200px', height: "auto", background: '#F4CE14', borderRadius: 16, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex', marginTop:"20px", padding:"10px",
+                 marginBottom:"20px", color: 'black', fontSize: 16, fontFamily: 'Karla', fontWeight: '700', wordWrap: 'break-word'
+                 }} onClick={()=>{navigate("/Reserve")}}>Reserve A Table
+                 </button>
                 </div>
 
                     <img src={headerImg} alt="Food" className='bannerImage'/>
