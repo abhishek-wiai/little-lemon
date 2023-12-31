@@ -32,7 +32,7 @@ color: #F4CE14;
 /* Display_serif */
 font-family: Markazi Text;
 font-size: 64px;
-font-style: normal;
+font-style: bold;
 font-weight: 500;
 line-height: normal;
 }
@@ -59,15 +59,108 @@ word-wrap: 'break-word'
 }
 
 
-
 .bannerImage {
     margin-top: 20px;
-    margin-bottom: -20px;
+    margin-bottom: -40px;
     width: 290px;
     height: 350px;
     border-radius: 14px;
     padding-left: 10px;
 }
+
+.specialsSection{
+    margin-bottom: 40px;
+}
+
+
+
+.specialsSectionHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+.specialsSectionContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+   
+}
+
+
+
+.specialsSectionHeading{
+    color:  #333333;
+
+    /* Display_serif */
+    font-family: Markazi Text;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 20px;
+    margin-right: 150px;
+}
+
+.specialsCard{
+    background-color: #EDEFEE;
+    width: 240px;
+    height: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+
+}
+
+.specialsCardImage{
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.specialsCardHeading{
+    display: flex;
+    padding: 10px;
+}
+
+
+
+
+
+.specialsCardDishName{
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
+    align-self: flex-start;
+    flex: 50%;
+
+}
+
+.specialsCardDishPrice{
+    color: #EE9972;
+    font-size: 1.5em;
+    align-self: flex-end;
+}
+
+
+.specialsCardDishDetails{
+color: #333333;
+line-height: 1.5;
+width: 240px;
+font-size: 18;
+font-family: 'Karla';
+font-weight: '500';
+word-wrap: 'break-word';
+padding: 10px
+    
+}
+
+
 
 @media only screen and (max-width: 700px) {
     .bannerDiv {
@@ -79,4 +172,20 @@ word-wrap: 'break-word'
       padding-top: 10px;
       padding-bottom: 10px;
     }
+
+    .specialsSectionHeader{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .specialsSectionContent{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .specialsCard{
+        margin-top: 40px;
+    }
+
+   
 }
