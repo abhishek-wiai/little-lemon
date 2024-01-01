@@ -1,4 +1,4 @@
-.banner{
+.banner {
     display: flex;
     background-color: #495e57;
     width: 100vw;
@@ -6,19 +6,19 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 40px;
-    
+
 }
-    
 
 
-.bannerDiv{
+
+.bannerDiv {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 
-.bannerTextSection{
+.bannerTextSection {
     display: inline-flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -26,36 +26,36 @@
     flex-direction: column;
 }
 
-.bannerTitle{
-color: #F4CE14;
+.bannerTitle {
+    color: #F4CE14;
 
-/* Display_serif */
-font-family: Markazi Text;
-font-size: 64px;
-font-style: bold;
-font-weight: 500;
-line-height: normal;
+    /* Display_serif */
+    font-family: Markazi Text;
+    font-size: 64px;
+    font-style: bold;
+    font-weight: 500;
+    line-height: normal;
 }
 
-.bannerSubHeading{
-color: #EDEFEE;
+.bannerSubHeading {
+    color: #EDEFEE;
 
-/* Subheading */
-font-family: Markazi Text;
-font-size: 40px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    /* Subheading */
+    font-family: Markazi Text;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
-.bannerText{
-color: white;
-line-height: 1.5;
-width: 240px;
-font-size: 18;
-font-family: 'Karla';
-font-weight: '500';
-word-wrap: 'break-word'
+.bannerText {
+    color: white;
+    line-height: 1.5;
+    width: 240px;
+    font-size: 18;
+    font-family: 'Karla';
+    font-weight: '500';
+    word-wrap: 'break-word'
 }
 
 
@@ -68,13 +68,13 @@ word-wrap: 'break-word'
     padding-left: 10px;
 }
 
-.specialsSection{
+.specialsSection {
     margin-bottom: 40px;
 }
 
 
 
-.specialsSectionHeader{
+.specialsSectionHeader {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,18 +82,18 @@ word-wrap: 'break-word'
 }
 
 
-.specialsSectionContent{
+.specialsSectionContent {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 40px;
-   
+
 }
 
 
 
-.specialsSectionHeading{
-    color:  #333333;
+.specialsSectionHeading {
+    color: #333333;
 
     /* Display_serif */
     font-family: Markazi Text;
@@ -105,7 +105,7 @@ word-wrap: 'break-word'
     margin-right: 150px;
 }
 
-.specialsCard{
+.specialsCard {
     background-color: #EDEFEE;
     width: 240px;
     height: 500px;
@@ -115,14 +115,14 @@ word-wrap: 'break-word'
 
 }
 
-.specialsCardImage{
+.specialsCardImage {
     width: 240px;
     height: 240px;
     object-fit: cover;
     border-radius: 20px;
 }
 
-.specialsCardHeading{
+.specialsCardHeading {
     display: flex;
     padding: 10px;
 }
@@ -131,7 +131,7 @@ word-wrap: 'break-word'
 
 
 
-.specialsCardDishName{
+.specialsCardDishName {
     color: #333333;
     text-decoration: none;
     font-weight: bold;
@@ -141,51 +141,50 @@ word-wrap: 'break-word'
 
 }
 
-.specialsCardDishPrice{
+.specialsCardDishPrice {
     color: #EE9972;
     font-size: 1.5em;
     align-self: flex-end;
 }
 
 
-.specialsCardDishDetails{
-color: #333333;
-line-height: 1.5;
-width: 240px;
-font-size: 18;
-font-family: 'Karla';
-font-weight: '500';
-word-wrap: 'break-word';
-padding: 10px
-    
+.specialsCardDishDetails {
+    color: #333333;
+    line-height: 1.5;
+    width: 240px;
+    font-size: 18;
+    font-family: 'Karla';
+    font-weight: '500';
+    word-wrap: 'break-word';
+    padding: 10px
 }
 
 
 
 @media only screen and (max-width: 700px) {
     .bannerDiv {
-      flex-direction: column;
-      align-items: center;
-      padding-left: 20px;
-      padding-right: 20px;
-      height: unset;
-      padding-top: 10px;
-      padding-bottom: 10px;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: unset;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
-    .specialsSectionHeader{
+    .specialsSectionHeader {
         flex-direction: column;
         align-items: center;
     }
 
-    .specialsSectionContent{
+    .specialsSectionContent {
         flex-direction: column;
         align-items: center;
     }
 
-    .specialsCard{
+    .specialsCard {
         margin-top: 40px;
     }
 
-   
+
 }

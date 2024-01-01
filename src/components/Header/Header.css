@@ -1,4 +1,4 @@
-.header{
+.header {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,7 +7,7 @@
     flex-wrap: wrap;
 }
 
-.navList{
+.navList {
     display: flex;
     margin-left: 100px;
     margin-right: 100px;
@@ -28,7 +28,7 @@
 }
 
 
-.navLogo{
+.navLogo {
     width: 200px;
     height: auto;
 }
@@ -36,15 +36,16 @@
 
 @media only screen and (max-width: 700px) {
     .header {
-      flex-direction: column;
-      text-align: center;
-      align-items: center;
-      height: unset;
-      padding-top: 10px;
-      padding-bottom: 10px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        height: unset;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
+
     .navList {
-      flex-direction: column;
+        flex-direction: column;
     }
 
     .navList li {
